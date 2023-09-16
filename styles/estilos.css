@@ -1,0 +1,119 @@
+/*Quicksans :'Quicksand', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+/*PT-sans:  'PT Sans', sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap');
+@font-face {
+    font-family: miFuente;
+    src: url(/font/Luckybones-Bold.ttf);
+}  
+/*Crimson':'Crimson Text', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Crimson+Text:wght@600&display=swap');
+
+
+/* scroll */
+*{
+    scroll-behavior: smooth;
+} 
+
+/*------- navbar---------- */
+
+/* navbar:Nombre de la marca */
+#huesitos{ 
+    color: #FF8870;
+    font-family: miFuente;
+    
+}
+
+/* menu */
+ul,li,a{
+    color:#E09594 !important;
+    font-family: 'Quicksand', sans-serif ; 
+    font-size: 15px;
+}
+
+a:hover{
+    color: black !important;
+} 
+
+/*-------- carousel--------- */
+
+.carousel-inner {
+    max-height:39rem !important;
+} 
+
+.carousel-item{
+    max-height:39rem !important;
+}
+
+h2{
+    font-family:'Quicksand', sans-serif ;
+    font-size: 40px;  
+    
+} 
+
+/*--------Nosotros--------- */ 
+
+#nosotros{
+    font-family: miFuente; 
+    color: #E09594;
+    font-size: 80px;
+} 
+
+p{
+    font-family:'Quicksand', sans-serif  ;
+}
+
+/*--------Servicios--------- */  
+
+main{
+    background-image:linear-gradient(rgba(5,7,12,0.75), rgba(5,7,12,0.75)),
+    url(/img/pexels-sebastian-coman-travel-3448793.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+
+h3{
+    font-family: miFuente;
+    font-size: 60px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+/* pantalla grande */
+
+@media(max-width:1440px) { 
+    
+    
+}  
+
+/* pantalla media */ 
+
+@media(max-width:1024px) { 
+    
+    
+} 
+
+/* pantalla chica */
+
+@media(max-width:768px) { 
+    
+    
+   
+   
+    
+} 
+
+
+ 
+
