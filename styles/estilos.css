@@ -80,7 +80,17 @@ h3{
 }
  
 
+/*--------Contacto--------- */  
 
+#contacto{ 
+    font-size: 50px;
+    font-family: miFuente;
+} 
+
+h5{
+    font-family:'Quicksand', sans-serif  ;
+    font-size: 22px;
+}
 
 
 
