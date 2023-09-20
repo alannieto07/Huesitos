@@ -1,6 +1,3 @@
--agregar iconos a la sección servicios <br>
 -darle estilo al menú <br>
--hacer un hover sobre los iconos <br>
--hacer seccion contactos <br>
 -hacer seccion formulario <br>
 -hacer seccion footer
