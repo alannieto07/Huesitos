@@ -77,8 +77,9 @@ main{
 h3{
     font-family: miFuente;
     font-size: 60px;
-}
- 
+} 
+
+
 
 /*--------Contacto--------- */  
 
@@ -90,6 +91,13 @@ h3{
 h5{
     font-family:'Quicksand', sans-serif  ;
     font-size: 22px;
+}
+
+/*--------Formulario--------- */  
+
+h4{
+    font-family: miFuente;
+    font-size: 25px;
 }
 
 
@@ -110,14 +118,24 @@ h5{
 /* pantalla media */ 
 
 @media(max-width:1024px) { 
-    
+    /* sección: contacto */
+    #contactos{
+        display: block !important;
+    }
+    iframe{
+        justify-content: center;
+        width: 300;
+    }
     
 } 
 
 /* pantalla chica */
 
 @media(max-width:768px) { 
-    
+    /* sección: contacto */
+    iframe{
+        display: none;
+    }
     
    
    

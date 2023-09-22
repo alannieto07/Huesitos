@@ -8,6 +8,7 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
      <script src="https://kit.fontawesome.com/6784074dee.js" crossorigin="anonymous"></script>
     <title>WWW.Huesitos.com</title>
 </head>
@@ -134,21 +135,21 @@
                 <div class="row row-cols-md-3 ">
                     <div class="col">
                         <div class="text-center text-light py-4 px-4">
-                            <img src="" alt="">
+                            <i class="fa-solid fa-paw fa-lg" style="color: #ffffff;"></i>
                             <h4>Baño</h4>
                             <p>Lavamos y secamos a su mascota</p>
                         </div>
                     </div>
                     <div class="col">
                         <div class="text-center text-light py-4 px-4">
-                            <img src="" alt="">
+                            <i class="fa-solid fa-paw fa-lg" style="color: #ffffff;"></i>
                             <h4>Limpieza de oidos</h4>
                             <p>Con el cuidado que tu mascota merece</p>
                         </div>
                     </div>
                     <div class="col">
                         <div class="text-center text-light py-4 px-4">
-                            <img src="" alt="">
+                            <i class="fa-solid fa-paw fa-lg" style="color: #ffffff;"></i>
                             <h4>Corte</h4>
                             <p>Realizamos cortes normales o de raza.</p>
                         </div>
@@ -157,21 +158,21 @@
                 <div class="row row-cols-md-3">
                     <div class="col">
                         <div class="text-center text-light">
-                            <img src="" alt="">
+                            <i class="fa-solid fa-paw fa-lg" style="color: #ffffff;"></i>
                             <h4>Guarderia</h4>
                             <p>Te contactamos con gente de confianza.</p>
                         </div>
                     </div>
                     <div class="col">
                         <div class="text-center text-light">
-                            <img src="" alt="">
+                            <i class="fa-solid fa-paw fa-lg" style="color: #ffffff;"></i>
                             <h4>Asesoramiento</h4>
                             <p>Recomendaciones para cuidar a tu mascota.</p>
                         </div>
                     </div>
                     <div class="col">
                         <div class="text-center text-light">
-                            <img src="" alt="">
+                            <i class="fa-solid fa-paw fa-lg" style="color: #ffffff;"></i>
                             <h4>Alimentos</h4>
                             <p>Muy pronto te llevamos la comida a tu casa.</p>
                         </div>
@@ -186,11 +187,11 @@
 <!-- =========================== --> 
 
 <section> 
-    <div class="bg-dark my-5 py-3">
+    <div class="bg-dark mt-5 py-3">
             <div class="text-center text-light">
                 <h4 id="contacto">Contacto</h4>
             </div>
-            <div class="container-fluid d-flex my-5 col-lg-8">
+            <div class="container-fluid d-flex my-5 col-lg-10" id="contactos">
                     <div>
                         <div class="">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6577.0421806520035!2d-58.63538497824988!3d-34.48967145419589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca4ad448f7865%3A0xf1645153a350dbfe!2sBDM%2C%20Arata%20978%2C%20B1611%20Don%20Torcuato%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1695090433464!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -202,7 +203,7 @@
                                     Hasta Beccar.
                                 </h5>
 
-                                <h5 class="text-light">CONTACTO WHATSAPP:</h5>
+                                <h5 class="text-light">CONTACTO WHATSAPP</h5>
                                 <p class="text-secondary">+54 9 11 5919 7589 </p>
 
                                 <h5 class="text-light">EMAIL</h5>
@@ -218,8 +219,38 @@
     </div>
 </section>
 
-
-
+<!-- ========================= -->
+<!-- ========Form============= -->
+<!-- =========================== --> 
+<section class="bg-dark" >
+    <div class="container-fluid col-lg-8 py-5 px-5 ">
+        <div class="text-center text-light my-4"> 
+            <h4>Consultas</h4>
+        </div>
+        <form action="" >
+            <div class="row">
+                <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                </div>
+                <div class="col">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                </div>
+            </div>
+            <div class="row mb-3 my-3">
+                <div class="col-sm-12">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+            </div>
+            <div class="mb-3 my-3">
+                <label for="validationTextarea" class="form-label text-light">Mensaje</label>
+                <textarea class="form-control" id="validationTextarea" placeholder="Ingrese su mensaje." required></textarea>
+            </div>
+            <div class="d-grid gap-2">
+                <button class="btn btn-secondary" type="button">Enviar</button>
+            </div>
+        </form>
+    </div>
+</section>
 
 
 
