@@ -1,3 +1,3 @@
 -darle estilo al menú <br>
--hacer seccion formulario <br>
--hacer seccion footer
+-hacer seccion footer <br>
+-si se puede agregar galeria de fotos
