@@ -1,3 +1,5 @@
--darle estilo al menú <br>
--hacer seccion footer <br>
 -si se puede agregar galeria de fotos
+-modificar letra carousel <br>
+-agregar enlaces internos en el menu <br>
+-agregar un estilo diferente en el menu <br>
+-agregar a netlify

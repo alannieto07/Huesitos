@@ -19,7 +19,7 @@
 
 /* navbar:Nombre de la marca */
 #huesitos{ 
-    color: #FF8870;
+    color: #E09594;
     font-family: miFuente;
     
 }
@@ -33,6 +33,7 @@ ul,li,a{
 
 a:hover{
     color: black !important;
+    text-decoration:underline;
 } 
 
 /*-------- carousel--------- */
